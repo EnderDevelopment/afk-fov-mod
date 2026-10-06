@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "afk-fov",
+  "version": "1.0.0",
+  "name": "AFK FOV Mod",
+  "description": "Changes FOV when player is AFK",
+  "authors": ["aasishsopato"],
+  "contact": {
+    "homepage": "https://github.com/aasishsopato/afk-fov",
+    "sources": "https://github.com/aasishsopato/afk-fov"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aasishsopato.afkfovmod.AfkFovClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
